@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Murugan Thantha Varamae 🧿</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#070509;color:#fff;font-family:Georgia,serif}
+body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 50% 5%,#5a173d,#1b0b1c 45%,#040306)}
+.stars{position:fixed;inset:0;z-index:-1;opacity:.18;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:48px 48px}
+section{min-height:100vh;padding:65px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hero h1{font-size:clamp(42px,12vw,78px);line-height:1.05;color:#ffe1ec;text-shadow:0 0 28px #ff5799;margin:18px 0}
+h2{font-size:30px;color:#ffe1ec}p{font-size:19px;line-height:1.95;max-width:700px;color:#eadde5}
+.heart{font-size:55px;animation:pulse 1.5s infinite}@keyframes pulse{50%{transform:scale(1.14)}}
+.note{max-width:720px;padding:32px;border:1px solid #ffffff24;border-radius:26px;background:#ffffff0b;backdrop-filter:blur(8px)}
+button{border:1px solid #ff9abd;background:#ff4f91;color:#fff;border-radius:30px;padding:14px 26px;font-size:16px;box-shadow:0 0 24px #ff4f9144}
+.gallery{width:100%;max-width:850px;display:grid;gap:22px}.gallery img{width:100%;max-height:78vh;object-fit:cover;border-radius:24px;box-shadow:0 18px 55px #0009}
+.small{font:14px Arial;color:#c9bac3;margin-top:14px}footer{text-align:center;padding:30px;color:#b9aab5}
+</style></head><body><div class="stars"></div>
+
+<section class="hero"><div class="heart">🧿🫂❤️‍🩹</div>
+<p>A little early… because some feelings can't wait for a date.</p>
+<h1>Murugan<br>Thantha Varamae</h1>
+<p>26 September 1999 🎂</p>
+<button onclick="playSong()">🎵 Play our song</button>
+<div class="small">Naan Aval Illai — first 30 seconds</div></section>
+
+<section><div class="note"><h2>My Deepest Wish For You 🥹</h2>
+<p>Some blessings are not asked for. They simply find us, enter our life, and slowly become a part of our heart.</p>
+<p>For me, <b>you are that blessing.</b> 🧿❤️‍🩹</p>
+<p>I don't know how many words are enough to explain what you mean to me. But if I could choose one thing to keep forever, I would choose the memories, the love, the little moments and the bond we share.</p>
+<p>On your birthday, I don't wish only for your success or happiness. I wish that your heart stays peaceful, your smile stays genuine, and life always gives you reasons to feel loved.</p></div></section>
+
+<section><h2>Our Memories 🫂❤️</h2><div class="gallery"><img src="photo1.jpg" alt="Our memory"><img src="photo2.jpg" alt="Our memory"></div></section>
+
+<section><div class="note"><div class="heart">🥹❤️‍🩹</div><h2>Before Your Birthday…</h2>
+<p>Happy Birthday in advance, my love.</p>
+<p>Maybe I can't promise that every day will be perfect. But I can promise that what you mean to me will always have a special place in my heart.</p>
+<p><b>If Murugan really gave me a blessing in this life… I feel like that blessing is you. 🧿🫂❤️</b></p>
+<p>Stay happy. Stay safe. Stay with me. ❤️‍🩹</p>
+<p>— With all the love I cannot put into words.</p></div></section>
+
+<footer>Made with a heart full of love for Murugan Thantha Varamae 🧿❤️</footer>
+<audio id="song" src="song_30sec.mp3"></audio><script>
+function playSong(){const a=document.getElementById('song');a.currentTime=0;a.play().catch(()=>{});}
+</script></body></html>
